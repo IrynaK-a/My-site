@@ -160,10 +160,13 @@ body {
 
 .button {
   padding: 6px 20px;
+  margin-bottom: 16px;
   display: inline-block;
   vertical-align: baseline;
   text-decoration: none;
   text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
   border-radius: 4px;
   background-color: #288be6;
   color: #ffffff;
@@ -172,15 +175,18 @@ body {
 .page-footer {
   padding: 40px 0;
   background-color: #00417d;
-  color: #ffffff;
 }
 
 .page-footer a {
   margin-left: 56px;
-  color: inherit;
+  color: #ffffff;
   text-decoration: none;
   background-repeat: no-repeat;
   background-position: left;
+}
+
+.footer-text {
+  color: white;
 }
 
 .footer-email {
